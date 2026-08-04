@@ -3,6 +3,8 @@
 Pennsylvania DMV MCP — registered vehicles and electric-vehicle adoption by county and by
 ZIP code, from PennDOT Driver & Vehicle Services.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Tools
 
 - `pa_dmv_ev_adoption(county?, year?, quarter?, limit?)` — battery-electric, plug-in
@@ -102,7 +104,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -119,14 +121,14 @@ Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about Pennsylvania DMV (PennDOT) data" })
+ask_pipeworx({ question: "your question about Pa Dmv data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
