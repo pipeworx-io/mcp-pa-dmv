@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/pa-dmv",
-  "title": "Pennsylvania DMV (PennDOT)",
-  "description": "PennDOT: quarterly EV, plug-in hybrid and total vehicle registrations by county and ZIP",
-  "version": "0.1.0",
+  "title": "Pa Dmv",
+  "description": "Pennsylvania DMV MCP — registered vehicles and electric-vehicle adoption by county and",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/pa-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-pa-dmv",

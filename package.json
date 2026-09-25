@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-pa-dmv",
-  "version": "0.1.0",
-  "description": "PennDOT: quarterly EV, plug-in hybrid and total vehicle registrations by county and ZIP",
+  "version": "0.1.1",
+  "description": "Pennsylvania DMV MCP — registered vehicles and electric-vehicle adoption by county and",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-pa-dmv": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "pa-dmv"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-pa-dmv"
+    "url": "git+https://github.com/pipeworx-io/mcp-pa-dmv.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-bc097ba86c4c0aea54819262a600bcaed42b5428a05eb2c2a34c7b3f541ad2a4",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
