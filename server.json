@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/pa-dmv",
   "title": "Pa Dmv",
-  "description": "Pennsylvania DMV MCP — registered vehicles and electric-vehicle adoption by county and",
-  "version": "0.1.1",
+  "description": "Pennsylvania DMV MCP — registered vehicles and electric-vehicle adoption by county and by ZIP…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/pa-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-pa-dmv",
